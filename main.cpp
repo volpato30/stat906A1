@@ -2,6 +2,7 @@
 #include <cmath>
 
 #include "q2.h"
+#include "q3.h"
 #include "LCRND.h"
 #include "matplotlibcpp.h"
 namespace plt = matplotlibcpp;
@@ -46,5 +47,8 @@ int main() {
 
     //q2
     q2();
+
+    //q3
+    q3();
     return 0;
 }
