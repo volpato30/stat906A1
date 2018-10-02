@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(./include)
 
 find_package(PythonLibs 2.7)
-add_executable(stat906 main.cpp include/LCRND.h include/matplotlibcpp.h include/q2.h q2.cpp include/q3.h q3.cpp)
+add_executable(stat906 main.cpp include/LCRND.h include/matplotlibcpp.h include/q2.h q2.cpp include/q3.h q3.cpp include/q5.h q5.cpp)
 
 target_include_directories(stat906 PRIVATE /usr/include/python2.7)
 target_link_libraries(stat906 python2.7)
